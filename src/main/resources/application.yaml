@@ -1,0 +1,23 @@
+eureka:
+  instance:
+    hostname: localhost
+
+server:
+  port: 9090
+
+spring:
+  application:
+    name: service-one
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://127.0.0.1:4000/realms/myRealm
+#          jwk-set-uri: http://localhost:4000/realms/myRealm/protocol/openid-connect/certs
+
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
