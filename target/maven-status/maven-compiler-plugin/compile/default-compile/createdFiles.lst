@@ -1,0 +1,5 @@
+com\example\service\one\service\one\config\WebMvcConfig.class
+com\example\service\one\service\one\config\RestConfig.class
+com\example\service\one\service\one\config\RequestLoggingInterceptor.class
+com\example\service\one\service\one\controller\serviceOneController.class
+com\example\service\one\service\one\Application.class
